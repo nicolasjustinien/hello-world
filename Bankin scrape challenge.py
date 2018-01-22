@@ -60,4 +60,6 @@ def main():
         driver.get(webpage_without_number + webpage_number)
     print('-------------------------------\n'+'Done'+'\n-------------------------------')
     print(output_list)
-main()
+
+if __name__ == "__main__":
+    main()
